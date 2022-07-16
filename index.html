@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,51 +8,57 @@
     <link rel="stylesheet" href="style.css">
     <title>Dairy Business</title>
 </head>
+
 <body>
     <div class="header">
-        <h2>Handii Ranch</h2>
+        <h2>HANDII FARM</h2>
     </div>
     <!-- section -->
     <div class="sections">
-      <div class="sectionA">
-          <h2>Milk Production in Litres</h2>
-          <form id="form">
-             <div class="shed">
-                <h4> Production in Shed A</h4>
-                <input id="num1" type="text" placeholder="Amount in Litres">
-             </div>
-             <div class="shed">
-                <h4> Production in Shed B</h4>
-                <input id="num2" type="text" placeholder="Amount in Litres">
-             </div>
-             <div class="shed">
-                <h4> Production in Shed C</h4>
-                <input id="num3" type="text" placeholder="Amount in Litres">
-             </div>
-             <div class="shed">
-                <h4> Production in Shed D</h4>
-                <input id="num4" type="text" placeholder="Amount in Litres">
-             </div>
-             <div class="total"></div>
-             <div class="button">
-                <button type="submit">Total production</button>
-                <h3 id="total"></h3>
-             </div>
-            </div>
-            <div class="sectionB"> 
-                <h2>Amount Accrued in a week</h2>
-                <h4 id="weekly">weekly</h4><br>
-                <h4 id="yearly">yearly</h4>
-            </div>
-            <div class="sectionC"> 
-                <h2>Amount Accrued in a leap year</h2>
-                <ul>
-                    <li id="list"></li>
-                </ul>
-            </div>
-          </form>
-   </div>
+        <div class="sectionA">
+            <h2>Milk Production in Litres</h2>
 
-   <script src="./script.js"></script>
+        <form id="form">
+                <div class="shed">
+                    <h4> Production in Shed A</h4>
+                    <input id="num1" type="text" placeholder="Amount in Litres">
+                </div>
+                <div class="shed">
+                    <h4> Production in Shed B</h4>
+                    <input id="num2" type="text" placeholder="Amount in Litres">
+                </div>
+                <div class="shed">
+                    <h4> Production in Shed C</h4>
+                    <input id="num3" type="text" placeholder="Amount in Litres">
+                </div>
+                <div class="shed">
+                    <h4> Production in Shed D</h4>
+                    <input id="num4" type="text" placeholder="Amount in Litres">
+                </div>
+
+                <div class="total"></div>
+                <div class="button">
+                    <button type="submit">Total production</button>
+                    <h3 id="total"></h3>
+                </div>
+            </form>
+        </div>
+
+        <div class="sectionB">
+            <h2>Amount Accrued in a week</h2>
+            <h4 id="weekly">weekly</h4><br>
+            <h4 id="yearly">yearly</h4>
+        </div>
+        <div class="sectionC">
+            <h2>Amount Accrued in a leap year</h2>
+            <ul>
+                <li id="list"></li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
