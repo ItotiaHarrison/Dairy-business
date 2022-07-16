@@ -19,33 +19,34 @@
 }
 
 /* .sections{ */
-    display: flex;
+    display: inline;
     justify-content: space-between;
     width: 90%;
     margin: auto;
 }
 
 .sectionA{
-    /* background-color: #268DA3; */
+    background-color: #268DA3;
     height: 480px;
+    width: 20px;
     color: black;
     padding: 10px;
     margin: 50px;
 }
 
 .sectionB{
-    /* background-color: #268DA3; */
-    height: 200px;
+    background-color: brown;
+    height: 400px;
     color: black;
-    padding: 10px;
+    padding: 50px;
     margin: 50px;
 }
 
 .sectionC{
-    /* background-color: #268DA3; */
+    background-color: orangered;
     height: 480px;
     color: black;
-    padding: 10px;
+    padding: 50px;
     margin: 50px;
 }
 
@@ -68,7 +69,7 @@ input{
     background-color: #E6E8EA;
 }
 
-/* ::-webkit-input-placeholder{ */
+::-webkit-input-placeholder{
     text-align: center;
     color: #268DA3;
     font-size: 15px;
@@ -81,7 +82,7 @@ input{
 .sections button{
     cursor: pointer;
   background-color: #E6E8EA;
-  color: #268DA3;
+  color: red;
   text-transform: uppercase;
   padding: 5px;
   border: none;
