@@ -6,7 +6,7 @@
 }
 
   body{
-     /* background-color: #E6E8EA; */
+     background-color: blue;
      font-family: poppins,sans-serif;
   }
 
@@ -14,12 +14,27 @@
     text-align: center;
     /* background-color: black; */
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     margin: 40px;
 }
 
-/* .sections{ */
-    display: inline;
+.layout{
+    display: flex;
+    border: 5px solid red;
+    background-color: darkblue;
+}
+
+.navigation{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 50px;
+}
+
+
+.sections{
+    display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
