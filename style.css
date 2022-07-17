@@ -10,18 +10,20 @@
      font-family: poppins,sans-serif;
   }
 
-.underline{
-    border: 2px solid black;
-    /* width: 200px; */
-    margin: auto;
-    margin-bottom: 50px;
-}
+
 .header{
     text-align: center;
-    /* background-color: black; */
     color: black;
     font-size: 20px;
     margin: 40px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.navigation a{
+    text-decoration: none;
 }
 
 .layout{
