@@ -27,9 +27,10 @@
 .navigation{
     background-color: black;
     color: white;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: justify;
     padding: 50px;
+    list-style: none;
 }
 
 

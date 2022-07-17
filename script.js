@@ -21,13 +21,17 @@
 
 // Total amount in litres
 
-const btn = document.querySelector('#btn')
+const btn = document.querySelector('#btn');
 
-function display () {
-    alert('It was clicked!');
-}
+btn.addEventListener('click',function(event){
+    console.log(event.type);
+});
 
-btn.addEventListener('click',display)
+// function display () {
+//     alert('It was clicked!');
+// }
+
+// btn.addEventListener('click',display)
 
 // function getTotals(e){
    
