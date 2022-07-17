@@ -16,53 +16,79 @@
 
     <div class="layout">
         <div class="navigation">
-            <li><button>Home</button></li>
-            <li><button>Dashboard</button></li>
-            <li><button>About</button></li>
-            <li><button>Contacts</button></li> 
+            <li><a href="Home">Home</a></li>
+            <li><a href="dashboard">Dashboard</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contacts">Contacts</a></li>
         </div>
 
 
         <div class="sections">
-            <div class="sectionA">
-                <h2>Milk Production in Litres</h2>
 
-                <form id="form">
-                    <div class="shed">
-                        <h4> Production in Shed A</h4>
-                        <input id="shed1" type="text" placeholder="Amount in Litres">
-                    </div>
-                    <div class="shed">
-                        <h4> Production in Shed B</h4>
-                        <input id="shed2" type="text" placeholder="Amount in Litres">
-                    </div>
-                    <div class="shed">
-                        <h4> Production in Shed C</h4>
-                        <input id="shed3" type="text" placeholder="Amount in Litres">
-                    </div>
-                    <div class="shed">
-                        <h4> Production in Shed D</h4>
-                        <input id="shed4" type="text" placeholder="Amount in Litres">
-                    </div>
+            <div class="shedproduction">
+                <div class="sectionA">
+                    <h2>Milk Production in Litres</h2>
+                    <div class="underline"></div>
 
-                    <div class="total"></div>
-                    <div class="button">
-                        <button id="btn"">Total production</button>
-                        <h3 id="total"></h3>
-                    </div>
-                </form>
+                    <form action="#">
+                        <div class="shed">
+                            <h4> Production in Shed A</h4>
+                            <input id="shed1" type="text" placeholder="Amount in Litres">
+                        </div>
+                        <div class="shed">
+                            <h4> Production in Shed B</h4>
+                            <input id="shed2" type="text" placeholder="Amount in Litres">
+                        </div>
+                        <div class="shed">
+                            <h4> Production in Shed C</h4>
+                            <input id="shed3" type="text" placeholder="Amount in Litres">
+                        </div>
+                        <div class="shed">
+                            <h4> Production in Shed D</h4>
+                            <input id="shed4" type="text" placeholder="Amount in Litres">
+                        </div>
+
+                        <div class="button">
+                            <button type="reset">Reset</button>
+                            <button type="submit" id="submitButton">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="dailyproduction">
+                    <p id="ShedA"></p>
+                    <p id="ShedB"></p>
+                    <p id="ShedC"></p>
+                    <p id="ShedD"></p>
+                    <p id="totalDailySheds"></p>
+                </div>
             </div>
 
-            <div class="sectionB">
-                <h2>Amount Accrued :</h2>
-                <h4 id="weekly">weekly</h4><br>
-                <h4 id="yearly">yearly</h4>
-            </div>
-            <div class="sectionC">
-                <h2>Amount Accrued in a leap year</h2>
-                <ul>
-                    <li id="list"></li>
-                </ul>
+            <div class="incomes">
+                <div class="sectionB">
+                    <h2>Income</h2>
+                    <div class="underline"></div>
+                    <h4 id="weekly"></h4><br>
+                </div>
+
+                <div class="sectionC">
+                    <h2>Amount Accrued in a leap year</h2>
+                    <div class="underline"></div>
+                    <P id="yearlyIncome"></P>
+                    <p id="jan"></p>
+                    <p id="feb"></p>
+                    <p id="mar"></p>
+                    <p id="apr"></p>
+                    <p id="may"></p>
+                    <p id="jun"></p>
+                    <p id="jul"></p>
+                    <p id="aug"></p>
+                    <p id="sep"></p>
+                    <p id="oct"></p>
+                    <p id="nov"></p>
+                    <p id="dec"></p>
+                </div>
             </div>
 
         </div>

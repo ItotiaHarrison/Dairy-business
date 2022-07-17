@@ -10,6 +10,12 @@
      font-family: poppins,sans-serif;
   }
 
+.underline{
+    border: 2px solid black;
+    /* width: 200px; */
+    margin: auto;
+    margin-bottom: 50px;
+}
 .header{
     text-align: center;
     /* background-color: black; */
@@ -19,7 +25,6 @@
 }
 
 .layout{
-    display: flex;
     border: 5px solid red;
     background-color: darkblue;
 }
@@ -35,24 +40,37 @@
 
 
 .sections{
-    display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
 }
 
+.shedproduction{
+    display: flex;
+}
+
 .sectionA{
-    background-color: #268DA3;
     height: 480px;
-    width: 20px;
+    width: 50%;
     color: black;
     padding: 10px;
+    margin: 50px;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.dailyproduction{
+    background-color: aquamarine;
+    width: 50%;
+    margin-left: 400px;
+    padding: 40px;
+    height: 480px;
     margin: 50px;
 }
 
 .sectionB{
     background-color: brown;
-    height: 400px;
+    height: 200px;
     color: black;
     padding: 50px;
     margin: 50px;
@@ -66,6 +84,10 @@
     margin: 50px;
 }
 
+.incomes{
+    display: flex;
+}
+
 .sections .shed{
     display: flex;
     justify-content: space-between;
@@ -76,20 +98,19 @@ input{
     width: 150px;
     height: 35px;
     border: none;
-    outline: 0;
     border-radius: 5px;
     margin: 5px;
-    /* color: #268DA3; */
+    color: red;
     font-size: 20px;
     text-align: center;
     background-color: #E6E8EA;
 }
 
-::-webkit-input-placeholder{
+/* ::-webkit-input-placeholder{
     text-align: center;
     color: #268DA3;
     font-size: 15px;
-}
+} */
 
 .total{
     border: 2px solid #E6E8EA;
@@ -97,7 +118,7 @@ input{
 
 .sections button{
     cursor: pointer;
-  background-color: #E6E8EA;
+  background-color: #0dec15;
   color: red;
   text-transform: uppercase;
   padding: 5px;
@@ -110,7 +131,8 @@ input{
 
 .button{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .button h3{
