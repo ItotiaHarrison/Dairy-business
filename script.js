@@ -10,23 +10,23 @@ months = ["January","February","March",
 function dailyProduction () {
     const valueShedA = parseInt(document.getElementById("shed1").value);
     document.getElementById("ShedA").innerHTML = "Your production in Shed A is " + valueShedA + " litres per day"
-    console.log(valueShedA)
+    
 
     const valueShedB = parseInt(document.getElementById("shed2").value);
     document.getElementById("ShedB").innerHTML = "Your production in Shed B is " + valueShedB + " litres per day"
-    console.log(valueShedB)  
+      
 
     const valueShedC= parseInt(document.getElementById("shed3").value);
     document.getElementById("ShedC").innerHTML = "Your production in Shed C is " + valueShedC + " litres per day"
-    console.log(valueShedC)
+    
 
     const valueShedD = parseInt(document.getElementById("shed4").value);
     document.getElementById("ShedD").innerHTML = "Your production in Shed D is " + valueShedD + " litres per day"
-    console.log(valueShedD)
+    
 
     const totalProduction = parseInt(valueShedA + valueShedB + valueShedC + valueShedD)
     document.getElementById("totalDailySheds").innerHTML = "Your production in all sheds is " + totalProduction + " litres per day"
-    console.log(totalProduction)  
+      
     
     const weeklyIncome = totalProduction * 7 * price;
     document.getElementById("weekly").innerHTML = "Your weekly income will be Ksh " + weeklyIncome;
